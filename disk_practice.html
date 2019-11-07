@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+
+    <form action="disk_practice.php" method="post">
+
+      <h1>Enter Values:</h1>
+      <h2>This program is used emulate hard disk performance relative to various seek methods based on a set of numeric requests.</h2>
+      <h3>Example: "20 22 40 12 45 42 50 16 30 24" (Please use this format when inserting numbers.)</h3>
+      <br>
+      <input type="text" name="arr">
+      <br>
+      <select name="funcType">
+        <option value="fcfs">First Come First Serve</option>
+        <option value="sstf">Shortest-Seek-Time First</option>
+        <option value="scan">Scan</option>
+        <option value="cscan">C-Scan</option>
+      </select>
+      <br>
+      <input type = "submit">
+    </form>
+
+  </body>
+</html>
